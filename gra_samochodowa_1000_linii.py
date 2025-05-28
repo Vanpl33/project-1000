@@ -1,5 +1,4 @@
-# UWAGA: Ta gra tekstowa to rozbudowana wersja "RPG samochodowego".
-# Zawiera ekwipunek, questy, crafting, mapę, pogodę, bossów, NPC, system losowych wydarzeń itd.
+
 
 import random
 import time
@@ -293,7 +292,7 @@ class Quest:
         return False
 
 # ---------------------------------------
-# SYSTEM SKLEPU
+# SKLEP
 # ---------------------------------------
 class Shop:
     def __init__(self, name, stock):
@@ -324,7 +323,7 @@ class Shop:
             print("Błędny format.")
 
 # ---------------------------------------
-# NPC I SYSTEM DIALOGÓW
+# NPC I  DIALOG
 # ---------------------------------------
 class NPC:
     def __init__(self, name, dialog_lines, quest=None, shop=None, can_join=False):
@@ -439,7 +438,7 @@ def team_race(driver, allies, rival, weather=None):
     driver.earn_gold(150)
 
 # ---------------------------------------
-# SYSTEM CRAFTINGU
+# CRAFT
 # ---------------------------------------
 class Recipe:
     def __init__(self, name, ingredients, result):
@@ -1019,5 +1018,3 @@ def grand_finale(driver):
     print("\nZajrzyj ponownie, by odkryć nowe trasy, pojazdy i wyzwania!")
     print("="*40 + "\n")
     sys.exit()
-
-# ZAMIANA DOTYCHCZASOWEGO check_ending NA grand_finale W MIEJSCACH WYWOŁANIA!
