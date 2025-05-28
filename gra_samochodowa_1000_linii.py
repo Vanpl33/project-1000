@@ -1013,8 +1013,5 @@ def grand_finale(driver):
         print("🛠️ Kolekcjoner części – twój garaż pęka w szwach!")
 
     print("\nDziękujemy za udział w motoryzacyjnej przygodzie!")
-    print("Stworzył: Vanpl33 i AI Copilot")
-    print("Wersja gry: 1.0    Rok: 2025")
     print("\nZajrzyj ponownie, by odkryć nowe trasy, pojazdy i wyzwania!")
-    print("="*40 + "\n")
     sys.exit()
